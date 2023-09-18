@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(images/bg-intro-desktop.png);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+
+  /* background-color: lightgreen; */
+  width: 75%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  color: #fff;
+  flex: 5px;
+  /* background-color: teal; */
+}
+.left h1 {
+  font-size: 38px;
+  margin-bottom: 5%;
+}
+
+.left p {
+  font-size: smaller;
+}
+
+.right {
+  flex: 1;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+button {
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.try-btn {
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 25px;
+  padding: 4%;
+  box-shadow: rgba(0, 0, 0, 0.13) 1px 6px;
+}
+.try-btn span {
+  font-weight: lighter;
+  /* color: hsl(246, 25%, 77%); */
+}
+
+form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 3% 4%;
+  margin: 2%;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  font-size: 12;
+  font-weight: 500;
+}
+
+.claim-btn {
+  background-color: hsl(154, 59%, 51%);
+  padding: 3%;
+  margin: 2%;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: darkgreen 1px 3px 5px;
+}
+
+h6 {
+  text-align: center;
+  color: rgb(182, 176, 176);
+  font-weight: 400;
+  font-size: 12;
+  margin: 4%;
+}
+
+h6 span {
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+}
